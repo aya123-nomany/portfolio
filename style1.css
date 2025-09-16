@@ -1,0 +1,314 @@
+
+/* =================== style.css =================== */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Playfair+Display:wght@700&family=Comfortaa:wght@700&display=swap');
+body {
+  
+  background-color: #fff;
+}
+
+
+.nav {
+  display: flex;               
+  flex-wrap: nowrap;            
+  justify-content: flex-end;    
+  gap: 20px;                    
+  font-family: Raleway, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  white-space: nowrap;         
+  transition: color 0.3s;
+}
+
+.nav a:hover {
+  color: #FDC435;
+}
+
+
+.titre {
+  font-family: Comfortaa, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #25282B;
+  text-decoration: none;
+}
+
+.tiit {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.paragraph {
+  font-size: 20px;
+  color: #6c757d;
+}
+
+.full {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.img {
+  max-width: 300px;
+  border-radius: 50%;
+}
+
+.btn1 {
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 8px 24px;
+  text-decoration: none;
+  color: black;
+  transition: background 0.3s;
+}
+
+.btn1:hover {
+  background: #FDC435;
+}
+
+.bg-yellow {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+  max-width: 50%;
+}
+
+.containerz {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+}
+
+.underline-yellow {
+  text-decoration: underline;
+  text-decoration-color: #FDC435;
+  text-decoration-thickness: 4px;
+}
+
+.bg-projet {
+  min-height: 300px;
+  background-size: cover;
+  background-position: center;
+}
+
+.card-title {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.card-text1 {
+  color: #828282;
+}
+.skills-section {
+  background-color: #f9f9f9;
+  padding: 60px 20px;
+}
+
+
+#contact .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#contact .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+
+#contact .col img {
+  width: 100px;
+  max-width: 120px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#contact .col img:hover {
+  transform: scale(1.15);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.25);
+}
+
+@media (max-width: 768px) {
+  #contact .col img {
+    width: 80px;
+  }
+}
+
+@media (max-width: 480px) {
+  #contact .col img {
+    width: 65px;
+  }
+}
+
+
+.view-btn {
+  border: 1px solid black;
+  background: transparent;
+}
+
+.send-btn {
+  background-color: #ffc107;
+  font-weight: bold;
+  color: black;
+}
+
+.hero-img {
+  max-width: 280px;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .tiit {
+    font-size: 32px;
+  }
+  .paragraph {
+    font-size: 18px;
+  }
+   .nav {
+    font-size: 14px;            
+    gap: 10px;                 
+    justify-content: flex-end;
+   }
+    .yellow1 {
+    position: static;        
+    display: block;
+    margin: 20px auto;        
+    width: 80%;             
+    max-width: 400px;
+  }
+  }
+.social-icons {
+  display: flex;
+  justify-content: center;    
+  gap: 40px;                 
+  margin-top: 10px;           
+}
+
+.social-icons a {
+  color: black;
+  font-size: 32px;            
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #FDC435;
+}
+.footer {
+ font-family: "Nunito", sans-serif;
+  text-align: center;        
+  color: #828282;           
+  margin-top: 20px;          
+  padding: 10px 0;          
+  font-weight: 500;
+  font-size: 16px;
+}
+.about {
+  padding: 60px 0;
+}
+.about-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 50px 20px;  
+  position: relative;
+  top: -30px;           
+}
+
+
+.about-img {
+  float: right;             
+  margin-left: 30px;          
+  position: relative;
+  text-align: center;
+}
+
+.about-img img {
+  width: 600px;
+  border-radius: 50%;
+  position: relative;
+  z-index: 2;
+  top: -30px;
+  margin-bottom: 30px; 
+}
+
+
+.about-text h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #828282;
+  text-align: left;
+}
+
+.about-text .btn {
+  background: #FDC435;
+  border: none;
+  padding: 10px 25px;
+  font-weight: 600;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-img {
+    float: none;
+    margin: 0 auto 20px auto;
+    display: block;
+  }
+  .about-text {
+    text-align: center;
+  }
+  .about-text p {
+    max-width: 100%;
+    text-align: center;
+  }
+}
+.about-section,
+.projects-section{
+  padding: 60px 20px;
+  margin-bottom: 60px;
+}
+
+.btn1{
+width: 100%; 
+    font-size: 14px;
+    padding: 8px 15px;
+}
+.contact-section form {
+  max-width: 600px;
+  margin: 0 auto;      
+  display: flex;
+  flex-direction: column;
+  gap: 20px;          
+}
+
+.yellow {
+  position: relative;
+  
+}
+.aya{
+  width: 100px;
+}
+

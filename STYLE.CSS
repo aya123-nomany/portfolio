@@ -1,0 +1,15 @@
+/* style.css */
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.hero {
+  min-height: 100vh;
+  background: linear-gradient(to right, white 50%, #f9b233 50%);
+  display: flex;
+}
+
+.hero-img {
+  max-height: 400px;
+  border-radius: 20px;
+}
